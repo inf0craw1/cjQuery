@@ -31,7 +31,7 @@ cjQuery는 ES6로 개발되었습니다.
 > $("p").color("red");
 > $("span").color("#cccccc");
 ```
-color()는 폰트 색상을 설정합니다.
+color()는 폰트 색상을 설정합니다.<br>
 이는 5. css의 _$("p").css("color", "red");_ 로 대체될 수 있습니다.<br>
 
 ### 2. .text([string|int: 설정할 innerHTML 값])
