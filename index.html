@@ -25,20 +25,23 @@
                 <div class="item bb">bb</div>
             </div>
         </div>
-        <button class="btn">버튼</button>
+        <button class="btn btn-1">button</button>
+        <button class="btn btn-2">button</button>
+        <button class="btn btn-3">button</button>
+        <button class="btn btn-4">button</button>
+        <button class="btn btn-5">button</button>
 
         <script src="./cjQuery.js" ></script>
 
         <script>
-            $(".b").show();
-            let aa  = $(".item");
-            aa.color("#ff0000");
             $(".btn").on("click", function(){
-                $(".bb").css("font-size", "50px");
-                $(this).text("clicked!").hide().show();
+                if($(this).text() === "clicked!!!"){
+                    $(this).text("button");
+                } else {
+                    $(this).text("clicked!!!");
+                }
             })
-            console.log(document.querySelectorAll(".bb")[0])
-            console.log(aa.css("color"));
+            
         </script>  
         
     </body>

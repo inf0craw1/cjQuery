@@ -1,12 +1,5 @@
-/*
- * cjQuery Beta v0.1.0
- * This is javascript library that help to use basic javascript easily
- * Author: inf0craw1
- * Date: 2021-02-02
- */
-
-function cjQuery(s){
-    cjQuery.prototype = {
+function $(s){
+    $.prototype = {
         selector: (typeof s == "string") ? document.querySelectorAll(s) : [s],
         selectString: s,
         color: function(c){
@@ -102,6 +95,5 @@ function cjQuery(s){
             return this;
         },
     }
-    return cjQuery.prototype;
+    return $.prototype;
 }
-window.$ = cjQuery;
