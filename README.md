@@ -17,7 +17,7 @@ CjQuery는 ES6의 문법을 준수합니다.
 ## > Methods Usage
 
 ### 0. cjQuery Selector
-_Ex: $("div.a#a1")<br>
+_Ex: $("div.a#a1");_<br>
 cjQuery는 HTML요소 선택을 쉽게 할 수 있습니다.
 
 ### 1. color(string: 설정할 색)
