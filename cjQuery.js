@@ -90,23 +90,10 @@ function $(s){
             }
             return this;
         },
-        child: function(e){
-            console.log(this.selector);
-            console.log(this.selector[0].parentNode);
-            // let s = `${this.selectString} ${e}`;
-            // this.selector = document.querySelectorAll(s);
-            // this.selectString = s;
-            return this;
-        },
         parent: function(){
             this.selector = this.selector[0].parentNode;
             return this;
         },
-        sibling: function(e){
-            console.log(this.selector);
-            console.log(this.selctString);
-            return this;
-        }
     }
     return $.prototype;
 }
