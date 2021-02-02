@@ -1,6 +1,6 @@
-# CjQuery
-CjQuery는 JQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있도록 도와주는 라이브러리입니다.<br>
-CjQuery는 ES6의 문법을 준수합니다.
+# cjQuery
+cjQuery는 JQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있도록 도와주는 라이브러리입니다.<br>
+cjQuery는 ES6로 개발되었습니다.
 
 ## > Methods
 ### 0. $()
@@ -27,6 +27,7 @@ cjQuery는 $(this)를 통해 엘리먼트 자신을 직접 지정할 수 있습�
 _Ex1: $("p").color("red");_<br>
 _Ex2: $("span").color("#cccccc");_<br>
 color()는 폰트 색상을 설정합니다.
+이는 5. css의 _$("p").css("color", "red");_ 로 대체될 수 있습니다.<br>
 
 ### 2. text([string|int: 설정할 innerHTML 값])
 _Ex1: $("p").text();_<br>
@@ -40,12 +41,13 @@ _Ex1: $("div").hide();_<br>
 _Ex2: $("div").show();_<br>
 hide()는 선택된 엘리먼트의 display 속성을 "none"으로 설정합니다.
 show()는 선택된 엘리먼트의 display 속성을 "block"으로 설정합니다.
+이는 5. css의 _$("div").css("display", "none|block");_ 로 대체될 수 있습니다.<br>
 
 ### 4. value([string|int: 설정할 value값])
 _Ex1: $("input").value();_<br>
 _Ex2: $("input.email").value("example@example.com");_<br>
 value()는 엘리먼트의 value값을 가져오거나 설정합니다.<br>
-이는 6. attr의 _$("input.email").attr("value", "example@example.com");_ 으로 대체될 수 있습니다.<br>
+이는 7. attr의 _$("input.email").attr("value", "example@example.com");_ 로 대체될 수 있습니다.<br>
 (선택된 엘리먼트가 여러 개일 경우, array형태로 반환합니다.)
 
 ### 5. css(string: css property[, string: css property 값])
