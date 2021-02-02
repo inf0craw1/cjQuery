@@ -39,8 +39,8 @@ text()는 엘리먼트의 innerHTML을 가져오거나 설정합니다.<br>
 ### 3. hide()/show()
 _Ex1: $("div").hide();_<br>
 _Ex2: $("div").show();_<br>
-hide()는 선택된 엘리먼트의 display 속성을 "none"으로 설정합니다.
-show()는 선택된 엘리먼트의 display 속성을 "block"으로 설정합니다.
+hide()는 선택된 엘리먼트의 display 속성을 "none"으로 설정합니다.<br>
+show()는 선택된 엘리먼트의 display 속성을 "block"으로 설정합니다.<br>
 이는 5. css의 _$("div").css("display", "none|block");_ 로 대체될 수 있습니다.<br>
 
 ### 4. value([string|int: 설정할 value값])
@@ -67,7 +67,7 @@ _Ex1: $(".div").attr("class");_<br>
 _Ex2: $(".input1").attr("minlength", 6);_<br>
 _Ex3: $("button").attr("onclick", "alert();");_<br>
 attr()은 요소의 attribute요소를 가져오거나 설정합니다.<br>
-존재하는 모든 attribute를 설정할 수 있습니다.
+존재하는 모든 attribute를 설정할 수 있습니다.<br>
 attribute값을 인자로 넣지 않으면 해당 엘리먼트의 attribute이름에 대한 attribute값을 반환해줍니다.<br>
 (선택된 엘리먼트가 여러 개일 경우, array형태로 반환합니다.)
 
