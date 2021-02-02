@@ -21,8 +21,8 @@ _Ex: $("div.a#a1")<br>
 cjQuery는 HTML요소 선택을 쉽게 할 수 있습니다.
 
 ### 1. color(string: 설정할 색)
-_Ex: $("p").color("red");_<br>
-_Ex: $("span").color("#cccccc");_<br>
+_Ex1: $("p").color("red");_<br>
+_Ex2: $("span").color("#cccccc");_<br>
 Color는 폰트 색상을 설정합니다.
 
 ### 2. text([string|int: 설정할 innerHTML 값])
@@ -54,7 +54,7 @@ on()은 엘리먼트에 이벤트를 설정합니다.<br>
 ### 6. attr(string: attribute이름[, string|int: attribute값])
 _Ex1: $(".div").attr("class");_<br>
 _Ex2: $(".input1").attr("minlength", 6);_<br>
-_Ex2: $("button").attr("onclick", "alert();");_<br>
+_Ex3: $("button").attr("onclick", "alert();");_<br>
 attr()은 요소의 attribute요소를 가져오거나 설정합니다.<br>
 존재하는 모든 attribute를 설정할 수 있습니다.
 attribute값을 인자로 넣지 않으면 해당 엘리먼트의 attribute이름에 대한 attribute값을 반환해줍니다.<br>
