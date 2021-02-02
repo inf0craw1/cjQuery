@@ -1,6 +1,6 @@
 function $(s){
     $.prototype = {
-        selector: document.querySelectorAll(s),
+        selector: (typeof s == "string") ? document.querySelectorAll(s) : [s],
         selectString: s,
         color: function(c){
             for(elem of this.selector){
@@ -52,11 +52,22 @@ function $(s){
             }
             return this;
         },
-        // css: function(){
-        //     for(elem of this.selector){
-        //         elem.style.
-        //     }
-        // },
+        css: function(prop, propValue){
+            if(propValue === null || propValue === undefined){
+                if(this.selector.length > 1){
+                    let res = [];
+                    for(elem of this.selector){
+                        res.push(elem.style[prop]);
+                    }
+                    return res;
+                }
+                return this.selector[0].style[prop];
+            }
+            for(elem of this.selector){
+                elem.style[prop] = propValue;
+            }
+            return this;
+        },
         on: function(e, f){
             for(elem of this.selector){
                 elem.addEventListener(e, f);

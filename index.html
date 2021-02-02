@@ -18,27 +18,28 @@
         <![endif]-->
 
         <div class="abc">
-            <div class="a">
-                <div class="aa">aa</div>
+            <div class="item-cover a">
+                <div class="item aa">aa</div>
             </div>
-            <div class="b">
-                <div class="bb">bb</div>
-            </div>
-            <div class="c" id="c">
-                <div class="cc">cc</div>
+            <div class="item-cover b" style="display: none;">
+                <div class="item bb">bb</div>
             </div>
         </div>
-        <input type="text" class="input input1" value="1">
-        <input type="text" class="input input2" value="22">
+        <button class="btn">버튼</button>
 
         <script src="./cjQuery.js" ></script>
 
         <script>
-            $(".input1").value("123");
-            $(".abc .a").color("blue");
-            console.log($(".input2").attr("value"))
-            console.log($(".abc .cc").text());
-        </script>
+            $(".b").show();
+            let aa  = $(".item");
+            aa.color("#ff0000");
+            $(".btn").on("click", function(){
+                $(".bb").css("font-size", "50px");
+                $(this).text("clicked!").hide().show();
+            })
+            console.log(document.querySelectorAll(".bb")[0])
+            console.log(aa.css("color"));
+        </script>  
         
     </body>
 </html>
