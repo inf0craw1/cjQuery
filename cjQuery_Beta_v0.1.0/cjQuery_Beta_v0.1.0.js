@@ -1,5 +1,12 @@
-function $(s){
-    $.prototype = {
+/*
+ * cjQuery Beta v0.1.0
+ * This is javascript library that help to use basic javascript easily
+ * Author: inf0craw1
+ * Date: 2021-02-02
+ */
+
+function cjQuery(s){
+    cjQuery.prototype = {
         selector: (typeof s == "string") ? document.querySelectorAll(s) : [s],
         selectString: s,
         color: function(c){
@@ -95,5 +102,6 @@ function $(s){
             return this;
         },
     }
-    return $.prototype;
+    return cjQuery.prototype;
 }
+window.$ = cjQuery;
