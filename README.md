@@ -1,5 +1,5 @@
 # CjQuery
-CjQuery는 jQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있도록 도와주는 라이브러리입니다.
+CjQuery는 JQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있도록 도와주는 라이브러리입니다.
 CjQuery는 ES6의 문법을 준수합니다.
 
 ## > Methods
@@ -23,7 +23,7 @@ cjQuery는 HTML요소 선택을 쉽게 할 수 있습니다.
 ### 1. color(string: 설정할 색)
 _Ex1: $("p").color("red");_<br>
 _Ex2: $("span").color("#cccccc");_<br>
-Color는 폰트 색상을 설정합니다.
+color는 폰트 색상을 설정합니다.
 
 ### 2. text([string|int: 설정할 innerHTML 값])
 _Ex1: $("p").text();_<br>
