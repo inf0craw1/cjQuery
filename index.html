@@ -20,6 +20,7 @@
         <div class="abc">
             <div class="item-cover a">
                 <div class="item aa">aa</div>
+                <p class="text">123</p>
             </div>
             <div class="item-cover b" style="display: none;">
                 <div class="item bb">bb</div>
@@ -41,7 +42,8 @@
                     $(this).text("clicked!!!");
                 }
             })
-            
+            $(".a .text").text("this is p<span class='text-in-span'> and this is span</span>")
+            $(".a .text .text-in-span").color("skyblue");
         </script>  
         
     </body>
