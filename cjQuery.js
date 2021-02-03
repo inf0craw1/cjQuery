@@ -7,7 +7,7 @@
 
 function cjQuery(s){
     cjQuery.prototype = {
-        selector: (typeof s == "string") ? document.querySelectorAll(s) : [s],
+        selector: (typeof s === "string") ? document.querySelectorAll(s) : [s],
         selectString: s,
         color: function(c){
             for(elem of this.selector){
