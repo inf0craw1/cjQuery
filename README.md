@@ -4,14 +4,14 @@ cjQuery는 ES6로 개발되었습니다.
 
 ## > Methods
 ### 0. $()
-### 1. .color()
-### 2. .text()
-### 3. .hide()/.show()
-### 4. .value()
-### 5. .css()
-### 6. .on()
-### 7. .attr()
-### 8. .parent()
+### 1. color()
+### 2. text()
+### 3. hide()/show()
+### 4. value()
+### 5. css()
+### 6. on()
+### 7. attr()
+### 8. parent()
 ### 추가예정
 
 ***
