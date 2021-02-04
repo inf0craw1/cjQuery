@@ -16,7 +16,7 @@ cjQuery는 ES6로 개발되었습니다.
 ### 10. removeClass()
 ### 11. toggleClass()
 ### 12. hasClass()
-### 13.replaceClass()
+### 13. replaceClass()
 ### 추가예정
 
 ***
