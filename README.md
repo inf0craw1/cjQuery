@@ -29,7 +29,7 @@ cjQuery는 ES6로 개발되었습니다.
 > $("button").on("click", function(){ $(this).text('button clicked!!!'); });
 ```
 > cjQuery는 cjQuery Selector($)를 통해 HTML 엘리먼트를 쉽게 선택할 수 있습니다.<br>
-> cjQuery는 $(this)를 통해 엘리먼트 자신을 직접 지정할 수 있습니다.
+> cjQuery는 $(this)를 통해 엘리먼트 자신을 직접 지정할 수 있습니다.<br>
 > 만약 cjQuery Selector를 통해 선택된 엘리먼트가 없을 경우 경고 콘솔을 출력하고 false를 반환합니다.
 
 ### 1. color(string: 설정할 색)
