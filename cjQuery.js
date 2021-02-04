@@ -31,7 +31,7 @@ function cjQuery(s){
         },
         text: function(t){
             if(!validateSelector(this.selector)) return false;
-            if(t === null || t === undefined){
+            if(t == null){
                 if(this.selector.length > 1){
                     let res = [];
                     for(elem of this.selector){
@@ -62,7 +62,7 @@ function cjQuery(s){
         },
         value: function(v){
             if(!validateSelector(this.selector)) return false;
-            if(v === null || v === undefined){
+            if(v == null){
                 if(this.selector.length > 1){
                     let res = [];
                     for(elem of this.selector){
@@ -79,7 +79,7 @@ function cjQuery(s){
         },
         css: function(prop, propValue){
             if(!validateSelector(this.selector)) return false;
-            if(propValue === null || propValue === undefined){
+            if(propValue == null){
                 if(this.selector.length > 1){
                     let res = [];
                     for(elem of this.selector){
@@ -103,7 +103,7 @@ function cjQuery(s){
         },
         attr: function(attrName, attrValue){
             if(!validateSelector(this.selector)) return false;
-            if(attrValue === null || attrValue === undefined){
+            if(attrValue == null){
                 if(this.selector.length > 1){
                     let res = [];
                     for(elem of this.selector){
