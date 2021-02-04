@@ -101,6 +101,40 @@ function cjQuery(s){
             this.selector = this.selector[0].parentNode;
             return this;
         },
+        addClass: function(c) {
+            for(elem of this.selector){
+                elem.classList.add(c);
+            }
+            return this;
+        },
+        removeClass: function(c){
+            for(elem of this.selector){
+                elem.classList.remove(c);
+            }
+            return this;
+        },
+        toggleClass: function(c){
+            for(elem of this.selector){
+                elem.classList.toggle(c);
+            }
+            return this;
+        },
+        hasClass: function(c){
+            if(this.selector.length > 1){
+                let res = [];
+                for(elem of this.selector){
+                    res.push(elem.classList.contains(c));
+                }
+                return res;
+            }
+            return this.selector[0].classList.contains(c);
+        },
+        replaceClass: function(targetC, c){
+            for(elem of this.selector){
+                elem.classList.replace(targetC, c);
+            }
+            return this;
+        }
     }
     return cjQuery.prototype;
 }
