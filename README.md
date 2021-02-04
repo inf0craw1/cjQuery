@@ -3,7 +3,7 @@ cjQuery는 JQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있
 cjQuery는 ES6로 개발되었습니다.
 
 ## > Methods
-### 0. $()
+### [0. $()](https://github.com/inf0craw1/cjQuery/edit/master/README.md#0-thisstring-선택할-엘리먼트)
 ### 1. color()
 ### 2. text()
 ### 3. hide()/show()
