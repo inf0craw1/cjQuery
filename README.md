@@ -7,7 +7,7 @@ cjQuery는 ES6로 개발되었습니다.
 #### [$()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#thisstring-%EC%84%A0%ED%83%9D%ED%95%A0-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8)
 #### [.parent()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#parent-1)
 #### [.child()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#childstring-%EC%84%A0%ED%83%9D%ED%95%A0-%EC%9E%90%EC%8B%9D-%EC%97%98%EB%A6%AC%EB%A8%BC%ED%8A%B8)
-### HTMl Methods
+### HTML Methods
 #### [.value()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#valuestringint-%EC%84%A4%EC%A0%95%ED%95%A0-value%EA%B0%92)
 #### [.attr()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#attrstring-attribute%EC%9D%B4%EB%A6%84-stringint-attribute%EA%B0%92)
 #### [.text()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#textstringint-%EC%84%A4%EC%A0%95%ED%95%A0-innerhtml-%EA%B0%92)
@@ -15,7 +15,7 @@ cjQuery는 ES6로 개발되었습니다.
 #### [.color()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#colorstring-%EC%84%A4%EC%A0%95%ED%95%A0-%EC%83%89)
 #### [.hide()/.show()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#hideshow-1)
 #### [.css()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#cssstring-css-property-string-css-property-%EA%B0%92)
-### 클래스 Methods
+### class Methods
 #### [.hasClass()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#hasclassstring-%ED%99%95%EC%9D%B8%ED%95%A0-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%AA%85)
 #### [.getClass()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#getclassstring-%EA%B0%80%EC%A0%B8%EC%98%AC-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%AA%85)
 #### [.addClass()](https://github.com/inf0craw1/cjQuery/blob/master/README.md#addclassstring-%EC%B6%94%EA%B0%80%ED%95%A0-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%AA%85)
@@ -110,7 +110,7 @@ cjQuery는 ```$(this)```를 통해 엘리먼트 자신을 직접 지정할 수 �
 ```.css()```는 선택된 엘리먼트의 ```style```값을 가져오거나 설정합니다.
 **(선택된 엘리먼트가 여러 개일 경우, array형태로 반환합니다.)**
 
-### 클래스 Method
+### class Method
 #### hasClass(string: 확인할 클래스명)
 ```javascript
 > $("input").hasClass("form-item"); // true of false
