@@ -1,5 +1,5 @@
 /*
- * cjQuery Beta v0.1.0
+ * cjQuery Beta v0.2.0
  * This is javascript library that help use basic javascript easily
  * Author: inf0craw1
  * Date: 2021-02-02
