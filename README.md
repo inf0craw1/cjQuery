@@ -1,6 +1,6 @@
 # cjQuery
 cjQuery는 JQuery와 같이 Javascript를 조금 더 편하게 사용할 수 있도록 도와주는 라이브러리입니다.<br>
-cjQuery는 ES6로 개발되었습니다.
+cjQuery는 ES6문법으로 개발되었습니다.
 
 ## > Methods
 ### 엘리먼트 선택 Methods
